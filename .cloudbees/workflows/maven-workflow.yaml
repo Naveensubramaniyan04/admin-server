@@ -14,5 +14,5 @@ jobs:
       - uses: docker://maven:3-eclipse-temurin-17
         name: Build1
         kind: build
-        run: mvn compile 
+        run: mvn clean install
         shell: sh
